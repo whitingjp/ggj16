@@ -60,7 +60,7 @@ def create_table(cards, start_suit):
 			table += '''
 			<tbody>
 				<tr>
-					<td class="%s">%s</td>
+					<td><span class="%s">%s</span></td>
 					<th>%s</th>
 				</tr>
 			</tbody>
@@ -69,7 +69,7 @@ def create_table(cards, start_suit):
 		table += '''
 			<tbody>
 				<tr>
-					<td class="%s">%s %s</td>
+					<td><span class="%s">%s</span> %s</td>
 					<td>%s</td>
 				</tr>
 			</tbody>
