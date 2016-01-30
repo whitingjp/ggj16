@@ -16,11 +16,11 @@ def card_num_string(n):
 
 def suit_string(n):
 	if n == 0:
-		return '&#x2660;' #spades
-	if n == 1:
-		return '&#x2665;' #hearts
-	if n == 2:
 		return '&#x2666;' #diamonds
+	if n == 1:
+		return '&#x2660;' #spades
+	if n == 2:
+		return '&#x2665;' #hearts
 	if n == 3:
 		return '&#x2663;' #clubs
 
