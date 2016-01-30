@@ -14,7 +14,6 @@
   <div class="container">
 	<div class="u-full-width" style="margin-top: 10%">
     %%%MARKDOWN%%%
-  	%%%CARD_TABLE%%%
   	</div>
 </body>
 </html>
