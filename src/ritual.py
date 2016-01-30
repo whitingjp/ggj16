@@ -14,7 +14,7 @@ def card_num_string(n):
 		return 'K'
 	return '%d' % n
 
-def suit_string(n):
+def suit_symbol_string(n):
 	if n == 0:
 		return '&#x2666;' #diamonds
 	if n == 1:
@@ -23,6 +23,16 @@ def suit_string(n):
 		return '&#x2665;' #hearts
 	if n == 3:
 		return '&#x2663;' #clubs
+
+def suit_string(n):
+	if n == 0:
+		return 'Diamonds'
+	if n == 1:
+		return 'Spades'
+	if n == 2:
+		return 'Hearts'
+	if n == 3:
+		return 'Clubs'
 
 content = subprocess.check_output(['markdown', 'src/ritual.md'])
 
@@ -60,6 +70,16 @@ for card in cards:
 		suit_class = 'black_suit'
 	else:
 		suit_class = 'red_suit'
+	if card_number == 1:
+		table += '''
+		<tbody>
+			<tr>
+				<td class="%s">%s</td>
+				<th>%s</th>
+			</tr>
+		</tbody>
+	''' % (suit_class, suit_symbol_string(suit), suit_string(suit))
+
 	table += '''
 		<tbody>
 			<tr>
@@ -67,7 +87,7 @@ for card in cards:
 				<td>%s</td>
 			</tr>
 		</tbody>
-	''' % (suit_class, suit_string(suit), card_num_string(card_number), card)
+	''' % (suit_class, suit_symbol_string(suit), card_num_string(card_number), card)
 	card_count = card_count+1
 table += '''
 	</table>
