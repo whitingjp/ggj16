@@ -1,5 +1,5 @@
-The Ritual Ritual (TODO: REAL TITLE)
-=========
+Creative Riting
+===============
 
 What is this?
 -------------
@@ -91,7 +91,7 @@ The next time the ritual is performed it is changed in the described way. Again,
 if you need to record this, feel free.
 
 Continuing to Play
------------------
+------------------
 
 From now on perform the ritual whenever the occasion is appropriate. Afterwards
 perform a Development step as before.
