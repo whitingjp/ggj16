@@ -16,3 +16,8 @@ Setup
 The first thing you will need to do as a group is to decide what you want to
 make a ritual about. It could be a personal greeting for a secret society,
 a performance before enjoying a favourite meal or ...
+
+
+%%%BOOTSTRAP_TABLE%%%
+
+%%%CARD_TABLE%%%
