@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ritual</title>
+  <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="skeleton/normalize.css">
+  <link rel="stylesheet" href="skeleton/skeleton.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="container">
+	<div class="ten column offset-by-one columns" style="margin-top: 10%">
+    %%%MARKDOWN%%%
+  </div>
+  </div>
+</body>
+</html>
