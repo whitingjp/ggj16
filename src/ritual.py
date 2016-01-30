@@ -40,11 +40,8 @@ def create_table(cards, start_suit):
 	table += '''
 		<table class="u-full-width">
 			<thead>
-				<tr>
-					<th>Card</th>
-					<th>Description</th>
-				</tr>
 			</thead>
+			<tbody>
 		'''
 	card_count = 0;
 	for card in cards:
@@ -56,26 +53,27 @@ def create_table(cards, start_suit):
 			suit_class = 'black_suit'
 		else:
 			suit_class = 'red_suit'
-		if card_number == 1 and suit is not 3:
+		if card_count > 0:
+			header_class = 'margin'
+		else:
+			header_class = ''
+		if card_number == 1:
 			table += '''
-			<tbody>
 				<tr>
-					<td><span class="%s">%s</span></td>
-					<th>%s</th>
+					<th class='%s'></th>
+					<th class='%s'>%s</th>
 				</tr>
-			</tbody>
-		''' % (suit_class, suit_symbol_string(suit), suit_string(suit))
+		''' % (header_class, header_class, suit_string(suit))
 
 		table += '''
-			<tbody>
 				<tr>
 					<td><span class="%s">%s</span> %s</td>
 					<td>%s</td>
 				</tr>
-			</tbody>
 		''' % (suit_class, suit_symbol_string(suit), card_num_string(card_number), card)
 		card_count = card_count+1
 	table += '''
+			</tbody>
 		</table>
 	'''
 	return table

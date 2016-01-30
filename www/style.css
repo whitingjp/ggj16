@@ -95,4 +95,11 @@ div.row
 {
 	margin-bottom: 0px;
 }
-
+th.margin
+{
+	padding-top:50px;
+}
+table
+{
+	margin-left:50px;
+}
