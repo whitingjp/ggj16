@@ -1,6 +1,8 @@
 Creative Riting
 ===============
 
+![Logo](disc.png)
+
 What is this?
 -------------
 
@@ -47,6 +49,8 @@ Remove five cards from the Development deck, shuffle the Joker in with these.
 Place these all at the bottom of the remaining Development deck.
 
 Shuffle the Creation Deck.
+
+![Logo](minidisc.png)
 
 Creation
 --------
@@ -104,12 +108,16 @@ When the Joker card is drawn from the deck the ritual is complete. The game is
 over, however you are encouraged to continue using your completed ritual for as
 long as you like.
 
+![Logo](minidisc.png)
+
 Creation Table
 --------------
 
 This table is used during the initial Creation of the ritual.
 
 %%%BOOTSTRAP_TABLE%%%
+
+![Logo](minidisc.png)
 
 Development Table
 -----------------
@@ -118,3 +126,5 @@ This table is used as the ritual during Development following completion of the
 ritual.
 
 %%%CARD_TABLE%%%
+
+![Logo](minidisc.png)
