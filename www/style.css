@@ -29,6 +29,10 @@ span.red_suit
 {
 	color:#e12424;
 }
+ul
+{
+	margin-left: 70px;
+}
 img
 {
 	image-rendering: -moz-crisp-edges;         /* Firefox */

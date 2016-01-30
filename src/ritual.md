@@ -32,16 +32,17 @@ Setup
 -----
 
 Take your deck of cards. Remove all the clubs, these make up the Creation deck.
-The rest of the cards make up the Maturation deck.
+The rest of the cards make up the Development deck.
 
-Shuffle both decks. Remove eight cards from the Maturation deck, shuffle the
-Joker in with these. Place them all at the bottom of the Maturation deck.
+Shuffle both decks. Remove eight cards from the Development deck, shuffle the
+Joker in with these. Place them all at the bottom of the Development deck.
 
 Creation
 --------
 
 First you need to establish an initial ritual, don't worry about getting this
-bit 'right', it will change as you play.
+bit 'right', it will change as you play. You should perform this creation step
+immediately before performing the ritual for the first time.
 
 Create your ritual in three steps. In each step you will draw a Creation card
 and add two contrasting parts to the ritual. The parts you add could be vocal,
@@ -50,17 +51,23 @@ different. Ideally the parts will relate to the theme in some way, and will be
 appropriate for the timescale of your occasion.
 
 For each phase:
-	* A player draws a card from the smaller Creation Deck.
-	* They look up the in the Creation table below and read it's text aloud.
-	* The first player that thinks of two elements to add to the ritual that
-	suit the contrast described.
 
-Draw a card from the top and look up the meaning associated with that card in the bootstrap table. Read the meaning aloud to all the players. The first part of a ritual described by a player that is consitent with the meaning is added to the ritual. Repeat this process two more times so that a total of three meanings from the boot strap table have been incorporated into the ritual.
+* A player draws a card from the smaller Creation Deck.
+* They look up the in the Creation table below and read it's text aloud.
+* All players silently try to think of two ritualistic parts to add to the
+ritual. They should suit the contrast described.
+* The first player to think of a pair announces that. They describe their idea
+to the group, and this becomes part of the ritual.
 
+Once the three phases are complete you should have a proto-ritual ready to
+perform.
 
+___PERFORM THE RITUAL NOW___
+
+Creation Table
+--------------
 %%%BOOTSTRAP_TABLE%%%
 
-Cards
------
-
+Development Table
+-----------------
 %%%CARD_TABLE%%%
