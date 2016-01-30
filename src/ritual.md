@@ -30,13 +30,30 @@ figure out what the ritual is.
 
 Setup
 -----
-Take your deck of cards. Take all the clubs and move them to a seperate pile.
-Shuffle both decks. Remove 8 cards from the larger, mixed deck, insert
-a Joker card, and shuffle them. Place these 9 cards at the bottom of the larger
-mixed deck.
+
+Take your deck of cards. Remove all the clubs, these make up the Creation deck.
+The rest of the cards make up the Maturation deck.
+
+Shuffle both decks. Remove eight cards from the Maturation deck, shuffle the
+Joker in with these. Place them all at the bottom of the Maturation deck.
 
 Creation
 --------
+
+First you need to establish an initial ritual, don't worry about getting this
+bit 'right', it will change as you play.
+
+Create your ritual in three steps. In each step you will draw a Creation card
+and add two contrasting parts to the ritual. The parts you add could be vocal,
+physical, symbolic, a combination of the above, or something completely
+different. Ideally the parts will relate to the theme in some way, and will be
+appropriate for the timescale of your occasion.
+
+For each phase:
+	* A player draws a card from the smaller Creation Deck.
+	* They look up the in the Creation table below and read it's text aloud.
+	* The first player that thinks of two elements to add to the ritual that
+	suit the contrast described.
 
 Draw a card from the top and look up the meaning associated with that card in the bootstrap table. Read the meaning aloud to all the players. The first part of a ritual described by a player that is consitent with the meaning is added to the ritual. Repeat this process two more times so that a total of three meanings from the boot strap table have been incorporated into the ritual.
 
