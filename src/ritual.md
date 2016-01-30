@@ -28,6 +28,14 @@ Once you have decided these things you should collectively have some idea of the
 flavour of your ritual, but little idea of its content. The game should help you
 figure out what the ritual is.
 
+The final thing you need to decide is an appropriate method of selecting a
+player after the ritual has been performed. This person will be responsible for
+making some small modification to the ritual ready for the next time it is
+performed. Some simple methods that might work are taking turns or drawing
+straws. Another possibility is each player drawing a card from the creationed
+deck, highest card acts. The only important thing to consider is that the method
+of selection is appropriate to the occasion of the ritual. Pick something easy.
+
 Setup
 -----
 
@@ -56,18 +64,53 @@ For each phase:
 * They look up the in the Creation table below and read it's text aloud.
 * All players silently try to think of two ritualistic parts to add to the
 ritual. They should suit the contrast described.
-* The first player to think of a pair announces that. They describe their idea
+* The first player to think of a pair announces it. They describe their idea
 to the group, and this becomes part of the ritual.
 
 Once the three phases are complete you should have a proto-ritual ready to
-perform.
+perform. If you think you might struggle to remember by the time the next
+occasion comes around, feel free to record it in some way, no need to be
+precise.
 
-___PERFORM THE RITUAL NOW___
+___NOW PERFORM THE RITUAL___
+
+Development
+-----------
+
+Every time the ritual is performed a player will make some sort of change it.
+After the ritual has completed, use the selection method determined while
+defining the ritual's scope to pick one player.
+
+This player:
+* Draws a card from the Development deck.
+* Reads the card out to the other players.
+* Decides on a change relating to the card to make to the ritual.
+* Describe their idea to the group.
+
+The next time the ritual is performed it is changed in the described way. Again,
+if you need to record this, feel free.
+
+Continuing to Play
+-----------------
+
+From now on perform the ritual whenever the occasion is appropriate. Afterwards
+perform a Development step as before.
+
+When the Joker card is drawn from the deck the ritual is complete. The game is
+over, however you are encouraged to continue using your completed ritual for as
+long as you like.
 
 Creation Table
 --------------
+
+This table is used during the initial Creation of the ritual.
+
 %%%BOOTSTRAP_TABLE%%%
 
 Development Table
 -----------------
+
+This table is used as the ritual during Development following completion of the
+ritual.
+
 %%%CARD_TABLE%%%
