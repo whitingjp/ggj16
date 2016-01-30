@@ -34,6 +34,52 @@ def suit_string(n):
 	if n == 3:
 		return 'Clubs'
 
+
+def create_table(cards, start_suit):
+	table = ''
+	table += '''
+		<table class="u-full-width">
+			<thead>
+				<tr>
+					<th>Card</th>
+					<th>Description</th>
+				</tr>
+			</thead>
+		'''
+	card_count = 0;
+	for card in cards:
+		if len(card) < 1 or card[0] == '-':
+			continue
+		suit = card_count/13+start_suit
+		card_number = (card_count)%13+1
+		if suit == 1 or suit == 3:
+			suit_class = 'black_suit'
+		else:
+			suit_class = 'red_suit'
+		if card_number == 1 and suit is not 3:
+			table += '''
+			<tbody>
+				<tr>
+					<td class="%s">%s</td>
+					<th>%s</th>
+				</tr>
+			</tbody>
+		''' % (suit_class, suit_symbol_string(suit), suit_string(suit))
+
+		table += '''
+			<tbody>
+				<tr>
+					<td class="%s">%s %s</td>
+					<td>%s</td>
+				</tr>
+			</tbody>
+		''' % (suit_class, suit_symbol_string(suit), card_num_string(card_number), card)
+		card_count = card_count+1
+	table += '''
+		</table>
+	'''
+	return table
+
 content = subprocess.check_output(['markdown', 'src/ritual.md'])
 
 pre = open('src/ritual.pre', 'r')
@@ -47,54 +93,15 @@ post = open(dest_filename, 'w')
 s = pre.read()
 s = s.replace('%%%MARKDOWN%%%', content)
 
+bootstrap_file = open('src/bootstrap.txt', 'r')
+bootstrap_cards = bootstrap_file.read().split('\n')
+bootstrap_table = create_table(bootstrap_cards, 3)
+s = s.replace('%%%BOOTSTRAP_TABLE%%%', bootstrap_table)
+
 card_file = open('src/cards.txt', 'r')
-cards = card_file.read()
-cards = cards.split('\n')
-table = ''
-table += '''
-	<table class="u-full-width">
-		<thead>
-			<tr>
-				<th>Card</th>
-				<th>Description</th>
-			</tr>
-		</thead>
-	'''
-card_count = 0;
-for card in cards:
-	if len(card) < 1 or card[0] == '-':
-		continue
-	suit = card_count/13
-	card_number = (card_count)%13+1
-	if suit == 1:
-		suit_class = 'black_suit'
-	else:
-		suit_class = 'red_suit'
-	if card_number == 1:
-		table += '''
-		<tbody>
-			<tr>
-				<td class="%s">%s</td>
-				<th>%s</th>
-			</tr>
-		</tbody>
-	''' % (suit_class, suit_symbol_string(suit), suit_string(suit))
-
-	table += '''
-		<tbody>
-			<tr>
-				<td class="%s">%s %s</td>
-				<td>%s</td>
-			</tr>
-		</tbody>
-	''' % (suit_class, suit_symbol_string(suit), card_num_string(card_number), card)
-	card_count = card_count+1
-table += '''
-	</table>
-'''
-
-
-s = s.replace('%%%CARD_TABLE%%%', table)
+cards = card_file.read().split('\n')
+card_table = create_table(cards, 0)
+s = s.replace('%%%CARD_TABLE%%%', card_table)
 
 post.write(s)
 post.close()
