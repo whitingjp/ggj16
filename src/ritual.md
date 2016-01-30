@@ -40,10 +40,13 @@ Setup
 -----
 
 Take your deck of cards. Remove all the clubs, these make up the Creation deck.
-The rest of the cards make up the Development deck.
+Shuffle the rest of the cards and draw thirteen of them. These make up the
+Development deck.
 
-Shuffle both decks. Remove eight cards from the Development deck, shuffle the
-Joker in with these. Place them all at the bottom of the Development deck.
+Remove five cards from the Development deck, shuffle the Joker in with these.
+Place these all at the bottom of the remaining Development deck.
+
+Shuffle the Creation Deck.
 
 Creation
 --------
