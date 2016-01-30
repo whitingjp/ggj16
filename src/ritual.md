@@ -14,7 +14,7 @@ copy of these rules.
 Define the Scope
 ----------------
 
-The first thing you will need to do as a group is to decide what you want to
+The first thing you will need to do as a group is to decide what you want toC
 make a ritual about. It could be a personal greeting for a secret society, a
 performance before enjoying a meal or a ritual for brushing your teeth.
 
@@ -32,7 +32,7 @@ The final thing you need to decide is an appropriate method of selecting a
 player after the ritual has been performed. This person will be responsible for
 making some small modification to the ritual ready for the next time it is
 performed. Some simple methods that might work are taking turns or drawing
-straws. Another possibility is each player drawing a card from the creationed
+straws. Another possibility is each player drawing a card from the Creation
 deck, highest card acts. The only important thing to consider is that the method
 of selection is appropriate to the occasion of the ritual. Pick something easy.
 
@@ -64,7 +64,7 @@ For each phase:
 * They look up the in the Creation table below and read it's text aloud.
 * All players silently try to think of two ritualistic parts to add to the
 ritual. They should suit the contrast described.
-* The first player to think of a pair announces it. They describe their idea
+* The first player to think of a pair announces it. They describe the parts
 to the group, and this becomes part of the ritual.
 
 Once the three phases are complete you should have a proto-ritual ready to
@@ -82,6 +82,7 @@ After the ritual has completed, use the selection method determined while
 defining the ritual's scope to pick one player.
 
 This player:
+
 * Draws a card from the Development deck.
 * Reads the card out to the other players.
 * Decides on a change relating to the card to make to the ritual.
