@@ -40,6 +40,10 @@ def create_table(cards, start_suit):
 	table += '''
 		<table class="u-full-width">
 			<thead>
+				<tr>
+					<th class=''></th>
+					<th class=''></th>
+				</tr>
 			</thead>
 			<tbody>
 		'''
@@ -67,7 +71,7 @@ def create_table(cards, start_suit):
 
 		table += '''
 				<tr>
-					<td><span class="%s">%s</span> %s</td>
+					<td><span class="%s">%s</span>%s</td>
 					<td>%s</td>
 				</tr>
 		''' % (suit_class, suit_symbol_string(suit), card_num_string(card_number), card)

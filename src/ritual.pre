@@ -12,7 +12,7 @@
 </head>
 <body>
   <div class="container">
-	<div class="ten column offset-by-one columns" style="margin-top: 10%">
+	<div class="u-full-width" style="margin-top: 10%">
     %%%MARKDOWN%%%
   	</div>
 </body>
