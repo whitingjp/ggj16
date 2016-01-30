@@ -54,14 +54,20 @@ card_count = 0;
 for card in cards:
 	if len(card) < 1 or card[0] == '-':
 		continue
+	suit = card_count/13
+	card_number = (card_count)%13+1
+	if suit == 1:
+		suit_class = 'black_suit'
+	else:
+		suit_class = 'red_suit'
 	table += '''
 		<tbody>
 			<tr>
-				<td>%s %s</td>
+				<td class="%s">%s %s</td>
 				<td>%s</td>
 			</tr>
 		</tbody>
-	''' % (suit_string(card_count/13), card_num_string((card_count)%13+1), card)
+	''' % (suit_class, suit_string(suit), card_num_string(card_number), card)
 	card_count = card_count+1
 table += '''
 	</table>

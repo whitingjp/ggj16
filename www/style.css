@@ -25,6 +25,10 @@ div.footer
 {
 	background-color: #202020;
 }
+td.red_suit::first-letter
+{
+	color:#e12424;
+}
 img
 {
 	image-rendering: -moz-crisp-edges;         /* Firefox */
