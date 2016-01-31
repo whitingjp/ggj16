@@ -42,10 +42,12 @@ def create_table(cards, start_suit):
 			</thead>
 			<tbody>
 	'''
+	table_image = '<p><img src="minidisc.png" /></p>'
+	table_image_final = '<p><img src="minidisc.png" class="no-break" /></p>'
 	table_footer = '''
 			</tbody>
 		</table>
-		<p><img src="minidisc.png" alt="Logo" title="" /></p>
+
 	'''
 
 
@@ -85,10 +87,15 @@ def create_table(cards, start_suit):
 			num_cards = 13
 		if card_count%13 == 12 and card_count != num_cards-1:
 			table += table_footer
+			table += table_image
 			table += table_header
 
 		card_count = card_count+1
 	table += table_footer
+	if card_count < 20:
+		table += table_image
+	else:
+		table += table_image_final
 	return table
 
 content = subprocess.check_output(['markdown', 'src/ritual.md'])

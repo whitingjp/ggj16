@@ -13,6 +13,19 @@ together.
 You will need at least one player, a deck of cards (including a Joker), and a
 copy of these rules.
 
+Who Made This?
+--------------
+
+Nick Brett
+
+Twitter: [@nickdbrett](https://twitter.com/nickdbrett)
+
+Jonathan Whiting
+
+Website: [http://jonathanwhiting.com](http://jonathanwhiting.com)
+
+Twitter: [@whitingjp](https://twitter.com/whitingjp)
+
 Define the Scope
 ----------------
 
@@ -123,10 +136,3 @@ Development Table
 This table is used during Development following completion of the ritual.
 
 %%%CARD_TABLE%%%
-
-Who Made This?
---------------
-
-Nick Brett - [@nickdbrett](https://twitter.com/nickdbrett)
-
-[Jonathan Whiting](http://jonathanwhiting.com) - [@whitingjp](https://twitter.com/whitingjp)
