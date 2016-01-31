@@ -122,9 +122,17 @@ This table is used during the initial Creation of the ritual.
 Development Table
 -----------------
 
-This table is used as the ritual during Development following completion of the
-ritual.
+This table is used during Development following completion of the ritual.
 
 %%%CARD_TABLE%%%
+
+![Logo](minidisc.png)
+
+Who Made This?
+--------------
+
+Nick Brett - [@nickdbrett](https://twitter.com/nickdbrett)
+
+[Jonathan Whiting](http://jonathanwhiting.com) - [@whitingjp](https://twitter.com/whitingjp)
 
 ![Logo](disc.png)
