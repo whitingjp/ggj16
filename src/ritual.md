@@ -29,7 +29,7 @@ Twitter: [@whitingjp](https://twitter.com/whitingjp)
 Define the scope
 ----------------
 
-The first thing you will need to do as a group is to decide what you want toC
+The first thing you will need to do as a group is to decide what you want to
 make a ritual about. It could be a personal greeting for a secret society, a
 performance before enjoying a meal or a ritual for brushing your teeth.
 
@@ -39,17 +39,17 @@ something infrequent or slow, something that occurs once a week, or once a year.
 You might consider trying a faster occasion and shorter ritual first, to try and
 get a feel how it works.
 
-Once you have decided these things you should collectively have some idea of the
+Once you have decided these things you should have some idea of the
 flavour of your ritual, but little idea of its content. The game should help you
 figure out what the ritual is.
 
 The final thing you need to decide is an appropriate method of selecting a
 player after the ritual has been performed. This person will be responsible for
-making some small modification to the ritual ready for the next time it is
-performed. Some simple methods that might work are taking turns or drawing
-straws. Another possibility is each player drawing a card from the Creation
-deck, highest card acts. The only important thing to consider is that the method
-of selection is appropriate to the occasion of the ritual. Pick something easy.
+making some small modification to the ritual ready for the next time. Some
+simple methods that might work are taking turns or drawing straws. Another
+possibility is each player drawing a card from the Creation deck, highest card
+acts. The only important thing to consider is that the method of selection is
+appropriate to the occasion of the ritual. Pick something easy.
 
 Setup
 -----
@@ -117,9 +117,9 @@ Continuing to play
 From now on perform the ritual whenever the occasion is appropriate. Afterwards
 perform a Development step as before.
 
-When the Joker card is drawn from the deck the ritual is complete. The game is
-over, however you are encouraged to continue using your completed ritual for as
-long as you like.
+When the Joker card is drawn from the Development deck the ritual is complete.
+The game is over, however you are encouraged to continue using your completed
+ritual for as long as you like.
 
 ![Logo](minidisc.png)
 
