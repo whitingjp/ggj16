@@ -127,4 +127,4 @@ ritual.
 
 %%%CARD_TABLE%%%
 
-![Logo](minidisc.png)
+![Logo](disc.png)
