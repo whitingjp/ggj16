@@ -33,11 +33,11 @@ The first thing you will need to do as a group is to decide what you want to
 make a ritual about. It could be a personal greeting for a secret society, a
 performance before enjoying a meal or a ritual for brushing your teeth.
 
-Your ritual should be attached to a particular occasion.  Maybe this is
+Your ritual should be attached to a particular occasion. Maybe this is
 something frequent and quick, every minute that passes, but it could also be
 something infrequent or slow, something that occurs once a week, or once a year.
-You might consider trying a faster occasion and shorter ritual first, to try and
-get a feel how it works.
+You might consider trying a faster occasion and shorter ritual first to get a 
+feel for how it works.
 
 Once you have decided these things you should have some idea of the
 flavour of your ritual, but little idea of its content. The game should help you
@@ -80,12 +80,12 @@ appropriate for the timescale of your occasion.
 
 For each phase:
 
-* A player draws a card from the smaller Creation Deck.
-* They look up the in the Creation table below and read it's text aloud.
-* All players silently try to think of two ritualistic parts to add to the
-ritual. They should suit the contrast described.
+* A player draws a card from the Creation Deck.
+* They look up the card in the Creation table below and read it's text aloud.
+* All players silently try to think of two ritualistic parts. They should 
+suit the contrast described.
 * The first player to think of a pair announces it. They describe the parts
-to the group, and this becomes part of the ritual.
+to the group, and these become part of the ritual.
 
 Once the three phases are complete you should have a proto-ritual ready to
 perform. If you think you might struggle to remember by the time the next
@@ -97,16 +97,15 @@ ___NOW PERFORM THE RITUAL___
 Development
 -----------
 
-Every time the ritual is performed a player will make some sort of change it.
-After the ritual has completed, use the selection method determined while
-defining the ritual's scope to pick one player.
+After every time the ritual is performed a player will make some sort of change to it.
+Use the selection method determined while defining the ritual's scope to pick one player.
 
 This player:
 
 * Draws a card from the Development deck.
 * Reads the card out to the other players.
 * Decides on a change relating to the card to make to the ritual.
-* Describe their idea to the group.
+* Describes their idea to the group.
 
 The next time the ritual is performed it is changed in the described way. Again,
 if you need to record this, feel free.
