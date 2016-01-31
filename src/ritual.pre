@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ritual</title>
+  <title>Creative Riting</title>
   <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="skeleton/normalize.css">
   <link rel="stylesheet" href="skeleton/skeleton.css">
+  <link rel="shortcut icon" href="favicon.png" />
   <link rel="stylesheet" href="style.css">
 
 </head>
