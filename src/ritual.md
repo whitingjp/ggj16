@@ -117,16 +117,12 @@ This table is used during the initial Creation of the ritual.
 
 %%%BOOTSTRAP_TABLE%%%
 
-![Logo](minidisc.png)
-
 Development Table
 -----------------
 
 This table is used during Development following completion of the ritual.
 
 %%%CARD_TABLE%%%
-
-![Logo](minidisc.png)
 
 Who Made This?
 --------------

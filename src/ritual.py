@@ -36,17 +36,20 @@ def suit_string(n):
 
 
 def create_table(cards, start_suit):
-	table = ''
-	table += '''
+	table_header = '''
 		<table class="u-full-width">
 			<thead>
-				<tr>
-					<th class=''></th>
-					<th class=''></th>
-				</tr>
 			</thead>
 			<tbody>
-		'''
+	'''
+	table_footer = '''
+			</tbody>
+		</table>
+		<p><img src="minidisc.png" alt="Logo" title="" /></p>
+	'''
+
+
+	table = table_header
 	card_count = 0;
 	for card in cards:
 		if len(card) < 1 or card[0] == '-':
@@ -75,11 +78,17 @@ def create_table(cards, start_suit):
 					<td>%s</td>
 				</tr>
 		''' % (suit_class, suit_symbol_string(suit), card_num_string(card_number), card)
+
+		if len(cards) > 20:
+			num_cards = 39
+		else:
+			num_cards = 13
+		if card_count%13 == 12 and card_count != num_cards-1:
+			table += table_footer
+			table += table_header
+
 		card_count = card_count+1
-	table += '''
-			</tbody>
-		</table>
-	'''
+	table += table_footer
 	return table
 
 content = subprocess.check_output(['markdown', 'src/ritual.md'])
