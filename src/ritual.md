@@ -13,8 +13,8 @@ together.
 You will need at least one player, a deck of cards (including a Joker), and a
 copy of these rules.
 
-Who Made This?
---------------
+Who made it?
+------------
 
 Nick Brett
 
@@ -26,7 +26,7 @@ Website: [http://jonathanwhiting.com](http://jonathanwhiting.com)
 
 Twitter: [@whitingjp](https://twitter.com/whitingjp)
 
-Define the Scope
+Define the scope
 ----------------
 
 The first thing you will need to do as a group is to decide what you want toC
@@ -111,7 +111,7 @@ This player:
 The next time the ritual is performed it is changed in the described way. Again,
 if you need to record this, feel free.
 
-Continuing to Play
+Continuing to play
 ------------------
 
 From now on perform the ritual whenever the occasion is appropriate. Afterwards
@@ -123,14 +123,14 @@ long as you like.
 
 ![Logo](minidisc.png)
 
-Creation Table
+Creation table
 --------------
 
 This table is used during the initial Creation of the ritual.
 
 %%%BOOTSTRAP_TABLE%%%
 
-Development Table
+Development table
 -----------------
 
 This table is used during Development following completion of the ritual.
