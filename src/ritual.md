@@ -134,5 +134,3 @@ Who Made This?
 Nick Brett - [@nickdbrett](https://twitter.com/nickdbrett)
 
 [Jonathan Whiting](http://jonathanwhiting.com) - [@whitingjp](https://twitter.com/whitingjp)
-
-![Logo](disc.png)
